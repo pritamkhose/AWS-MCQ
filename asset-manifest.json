@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AWS-MCQ/static/css/main.d901fbbf.chunk.css",
-    "main.js": "/AWS-MCQ/static/js/main.8a36345e.chunk.js",
-    "main.js.map": "/AWS-MCQ/static/js/main.8a36345e.chunk.js.map",
+    "main.js": "/AWS-MCQ/static/js/main.d7bcddac.chunk.js",
+    "main.js.map": "/AWS-MCQ/static/js/main.d7bcddac.chunk.js.map",
     "runtime-main.js": "/AWS-MCQ/static/js/runtime-main.90ee11e9.js",
     "runtime-main.js.map": "/AWS-MCQ/static/js/runtime-main.90ee11e9.js.map",
     "static/js/2.7ed46477.chunk.js": "/AWS-MCQ/static/js/2.7ed46477.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.90ee11e9.js",
     "static/js/2.7ed46477.chunk.js",
     "static/css/main.d901fbbf.chunk.css",
-    "static/js/main.8a36345e.chunk.js"
+    "static/js/main.d7bcddac.chunk.js"
   ]
 }
