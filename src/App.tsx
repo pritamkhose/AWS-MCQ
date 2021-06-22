@@ -14,7 +14,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("/exam4trainingListQueAns.json")
+    fetch("/AWS-MCQ/exam4trainingListQueAns.json")
       .then((res) => res.json())
       .then(
         (result) => {
