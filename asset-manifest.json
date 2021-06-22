@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d901fbbf.chunk.css",
-    "main.js": "/static/js/main.8a36345e.chunk.js",
-    "main.js.map": "/static/js/main.8a36345e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.68836dca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.68836dca.js.map",
-    "static/js/2.7ed46477.chunk.js": "/static/js/2.7ed46477.chunk.js",
-    "static/js/2.7ed46477.chunk.js.map": "/static/js/2.7ed46477.chunk.js.map",
-    "static/js/3.463e1b5b.chunk.js": "/static/js/3.463e1b5b.chunk.js",
-    "static/js/3.463e1b5b.chunk.js.map": "/static/js/3.463e1b5b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.d901fbbf.chunk.css.map": "/static/css/main.d901fbbf.chunk.css.map",
-    "static/js/2.7ed46477.chunk.js.LICENSE.txt": "/static/js/2.7ed46477.chunk.js.LICENSE.txt"
+    "main.css": "/AWS-MCQ/static/css/main.d901fbbf.chunk.css",
+    "main.js": "/AWS-MCQ/static/js/main.8a36345e.chunk.js",
+    "main.js.map": "/AWS-MCQ/static/js/main.8a36345e.chunk.js.map",
+    "runtime-main.js": "/AWS-MCQ/static/js/runtime-main.90ee11e9.js",
+    "runtime-main.js.map": "/AWS-MCQ/static/js/runtime-main.90ee11e9.js.map",
+    "static/js/2.7ed46477.chunk.js": "/AWS-MCQ/static/js/2.7ed46477.chunk.js",
+    "static/js/2.7ed46477.chunk.js.map": "/AWS-MCQ/static/js/2.7ed46477.chunk.js.map",
+    "static/js/3.463e1b5b.chunk.js": "/AWS-MCQ/static/js/3.463e1b5b.chunk.js",
+    "static/js/3.463e1b5b.chunk.js.map": "/AWS-MCQ/static/js/3.463e1b5b.chunk.js.map",
+    "index.html": "/AWS-MCQ/index.html",
+    "static/css/main.d901fbbf.chunk.css.map": "/AWS-MCQ/static/css/main.d901fbbf.chunk.css.map",
+    "static/js/2.7ed46477.chunk.js.LICENSE.txt": "/AWS-MCQ/static/js/2.7ed46477.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.68836dca.js",
+    "static/js/runtime-main.90ee11e9.js",
     "static/js/2.7ed46477.chunk.js",
     "static/css/main.d901fbbf.chunk.css",
     "static/js/main.8a36345e.chunk.js"
