@@ -1,59 +1,47 @@
-import React, { useEffect, useState } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import "./App.css";
 
-export interface ItemsObject {
-  name: string;
-  url: string;
-  ques: string;
-  answer: string[];
-}
+import Exam4training from "./screen/Exam4training";
+import Examtopics from "./screen/Examtopics";
 
 function App() {
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [items, setItems] = useState([]);
+  return (
+    <div className="App">
+      <Router>
+        <div>
+          <nav className="navbar navbar-default">
+            <div className="container-fluid">
+              <div className="navbar-header">
+                <Link className="navbar-brand" to="/" >AWS Question and Ansewers</Link>
+              </div>
+              <ul className="nav navbar-nav">
+                <li><Link to="/AWS-MCQ/exam4training">Exam4training</Link></li>
+                <li><Link to="/AWS-MCQ/examtopics/1">Examtopics</Link></li>
+              </ul>
+            </div>
+          </nav>
 
-  useEffect(() => {
-    fetch("/AWS-MCQ/exam4trainingListQueAns.json")
-      .then((res) => res.json())
-      .then(
-        (result) => {
-          setIsLoaded(true);
-          setItems(result);
-        },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        }
-      );
-  }, []);
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  } else if (!isLoaded) {
-    return <div>Loading...</div>;
-  } else {
-    return (
-      <div className="App">
-        {items.map((item: ItemsObject, index: number) => (
-          <div key={index}>
-            <a href={item.url}>
-              <h4>
-                {index + 1}. {item.name.replaceAll("Â", "")}
-              </h4>
-            </a>
-            <div dangerouslySetInnerHTML={{ __html: item.answer[0] }} />
-            <br />
-            <div dangerouslySetInnerHTML={{ __html: item.answer[2] }} />
-            <hr />
-          </div>
-        ))}
-      </div>
-    );
-  }
+          <Switch>
+            <Route path="/AWS-MCQ/exam4training">
+              <Exam4training />
+            </Route>
+            <Route path="/AWS-MCQ/examtopics/:id">
+              <Examtopics />
+            </Route>
+            <Route path="/">
+              <p>AWS Question and Ansewer</p>
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </div>
+  )
 }
 
 export default App;

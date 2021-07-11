@@ -66,3 +66,7 @@ npm install gh-pages — save-dev
 * [Adding TypeScript React JS](https://create-react-app.dev/docs/adding-typescript/)
 
 * [Deploy a React app to Github pages](https://medium.com/mobile-web-dev/how-to-build-and-deploy-a-react-app-to-github-pages-in-less-than-5-minutes-d6c4ffd30f14)
+
+* [React Router](https://reactrouter.com/web/guides/quick-start)
+
+* [Bootstrap](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
